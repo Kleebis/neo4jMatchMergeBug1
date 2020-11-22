@@ -1,0 +1,16 @@
+{
+  "name": "neo4jmatchmergebug1",
+  "version": "1.0.0",
+  "description": "Reproduces an issue in Neo4j javascript driver which causes a match-merge to not perform in Javascript. Same query works in the browser.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kleebis/neo4jMatchMergeBug1.git"
+  },
+  "dependencies": {
+    "neo4j-driver": "^4.2.1"
+  }
+}
